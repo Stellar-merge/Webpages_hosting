@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(208, 217, 224);
+}
+
+.container{
+    background-color: rgb(255, 233, 204);
+
+    /* max-width: 90vw;
+    margin: 0 auto; */
+
+    height: 80vh;
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    align-items: center;
+
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: rgb(126, 126, 126) 3px 5px;
+}
+
+#myForm{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#myTemp{
+    height: 35px;
+    text-align: center;
+
+    background-color: rgb(255, 249, 241);
+}
+#myTemp:focus{ /* pseudo class */
+    background-color: rgb(249, 221, 184);
+}
+#myTemp:focus::placeholder{
+    color: transparent;
+}
+
+#mySubmit{
+    width: 6rem;
+    height: 2rem;
+    margin: 0 auto;
+
+    
+}
+
+#myRes{
+    margin: 0 auto;
+}
